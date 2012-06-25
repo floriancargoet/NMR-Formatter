@@ -22,7 +22,7 @@ Ext.override(Ext.form.TextField, {
 });
 
 Ext.rmn.presets = {
-    'Nom inconnu' : {
+    'Eur JOC' : {
         '1H' : {
             'from'     : 'Word',
             'nbCols'   : 5,
