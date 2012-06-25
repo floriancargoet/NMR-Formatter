@@ -39,6 +39,24 @@ Ext.rmn.presets = {
             'joinWith' : '; ',
             'after'    : '.'
         }
+    },
+    'Org Lett' : {
+        '1H' : {
+            'from'     : 'Word',
+            'nbCols'   : 5,
+            'before'   : '<sup>1</sup>H NMR (400 MHz, CDCl<sub>3</sub>) &delta;: ',
+            'lineTpl'  : '{1} ({2}[, J = {3} Hz][, {4}H])',
+            'joinWith' : ', ',
+            'after'    : '.'
+        },
+        '13C' : {
+            'from'     : 'Word',
+            'nbCols'   : 2,
+            'before'   : '<sup>13</sup>C NMR (100 MHz, CDCl<sub>3</sub>) &delta;: ',
+            'lineTpl'  : '{1}',
+            'joinWith' : '; ',
+            'after'    : '.'
+        }
     }
 };
 
