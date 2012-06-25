@@ -1,0 +1,10 @@
+
+div.icon-strange {
+    background-image:url("../icons/page_white_error.png") !important;
+    background-repeat:no-repeat;
+    padding-left:22px !important;
+}
+
+textarea.paste-zone{
+    background:url("../img/textarea.png") no-repeat bottom !important;
+}
